@@ -13,9 +13,9 @@
 
 ##  _2. JavaScript Assingment_
 
-- ## _[Link]()_
+- ## _[Link](https://github.com/krrishmittal/FSJS2.0/tree/main/JavaScript%20Assignment)_
 
-## 3. _HTML CSS and Tailwind Projects Link_
+## _3. HTML CSS and Tailwind Projects Link_
 - ## _[Project- 01](https://github.com/krrishmittal/FSJS2.0/tree/main/HTML%20and%20CSS%20Assignment/Week%2003/FSJS%202.0%20Project%2001)_
 
 - ## _[Project- 02](https://github.com/krrishmittal/FSJS2.0/tree/main/HTML%20and%20CSS%20Assignment/Week%2003/FSJS%202.0%20Project%2002)_
