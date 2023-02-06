@@ -5,12 +5,17 @@
 > I have learned from Full Stack JavaScript Web Development Course at ineuron.
 
 
-## _FSJS Batch-2 All Project Link_
+## _⭐ FSJS Batch-2 All Projects⭐_
 
-## _All articles nd Blogs link!_
-## _[Link](https://github.com/krrishmittal/FSJS2.0/tree/main/Articles)_
+## _1. All articles and Blogs link!_
 
-## _HTML CSS and Tailwind Projects Link_
+- ## _[Link](https://github.com/krrishmittal/FSJS2.0/tree/main/Articles)_
+
+##  _2. JavaScript Assingment_
+
+- ## _[Link]()_
+
+## 3. _HTML CSS and Tailwind Projects Link_
 - ## _[Project- 01](https://github.com/krrishmittal/FSJS2.0/tree/main/HTML%20and%20CSS%20Assignment/Week%2003/FSJS%202.0%20Project%2001)_
 
 - ## _[Project- 02](https://github.com/krrishmittal/FSJS2.0/tree/main/HTML%20and%20CSS%20Assignment/Week%2003/FSJS%202.0%20Project%2002)_
