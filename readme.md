@@ -1,19 +1,19 @@
-# Full Stack JavaScript 2.0
+# _Full Stack JavaScript 2.0_
 
 
-## In this repo, I have share all my learnings, practices, projects and articles which 
+## _In this repo, I have share all my learnings, practices, projects and articles which_ 
 > I have learned from Full Stack JavaScript Web Development Course at ineuron.
 
 
-## FSJS Batch-2 All Project Link
+## _FSJS Batch-2 All Project Link_
 
-## All articles nd Blogs link!
+## _All articles nd Blogs link!_
 ## _[Link](https://github.com/krrishmittal/FSJS2.0/tree/main/Articles)_
 
-## HTML CSS and Tailwind Projects Link
+## _HTML CSS and Tailwind Projects Link_
 - ## _[Project- 01](https://github.com/krrishmittal/FSJS2.0/tree/main/HTML%20and%20CSS%20Assignment/Week%2003/FSJS%202.0%20Project%2001)_
 
-- ## _[Project- 02](https://github.com/krrishmittal/FSJS2.0/tree/main/HTML%20and%20CSS%20Assignment/Week%2003/FSJS%202.0%20Project%2002)-
+- ## _[Project- 02](https://github.com/krrishmittal/FSJS2.0/tree/main/HTML%20and%20CSS%20Assignment/Week%2003/FSJS%202.0%20Project%2002)_
 
 - ## _[Project- 03]()_
 
