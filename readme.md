@@ -8,32 +8,32 @@
 ## FSJS Batch-2 All Project Link
 
 ## All articles nd Blogs link!
-## [Link]()
+## _[Link](https://github.com/krrishmittal/FSJS2.0/tree/main/Articles)_
 
 ## HTML CSS and Tailwind Projects Link
-- ## [Project- 01](https://github.com/krrishmittal/FSJS2.0/tree/main/HTML%20and%20CSS%20Assignment/Week%2003/FSJS%202.0%20Project%2001)
+- ## _[Project- 01](https://github.com/krrishmittal/FSJS2.0/tree/main/HTML%20and%20CSS%20Assignment/Week%2003/FSJS%202.0%20Project%2001)_
 
-- ## [Project- 02](https://github.com/krrishmittal/FSJS2.0/tree/main/HTML%20and%20CSS%20Assignment/Week%2003/FSJS%202.0%20Project%2002)
+- ## _[Project- 02](https://github.com/krrishmittal/FSJS2.0/tree/main/HTML%20and%20CSS%20Assignment/Week%2003/FSJS%202.0%20Project%2002)-
 
-- ## [Project- 03]()
+- ## _[Project- 03]()_
 
-- ## [Project- 04]()
+- ## _[Project- 04]()_
 
-- ## [Project- 05]()
+- ## _[Project- 05]()_
 
-- ## [Project- 06]()
+- ## _[Project- 06]()_
 
-- ## [Project- 07]()
+- ## _[Project- 07]()_
 
-- ## [Project- 08]()
+- ## _[Project- 08]()_
 
-- ## [Project- 09]()
+- ## _[Project- 09]()_
 
-- ## [Project- 10]()
+- ## _[Project- 10]()_
 
-- ## [Project- 11]()
+- ## _[Project- 11]()_
 
-- ## [Project- 12]()
+- ## _[Project- 12]()_
 
 - ## _[Project- 13]()_
 
