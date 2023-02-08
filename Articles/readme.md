@@ -4,4 +4,4 @@
 
 ## 2. _[HTML Element](https://krrishmittal.hashnode.dev/html-element)_
 
-## 3. _[Input Elements]()_
+## 3. _[Input Elements](https://krrishmittal.hashnode.dev/input-elements-in-html)_
