@@ -12,5 +12,5 @@
 
 ### **Project 03(Fashion Hub Landing Page)**
 
-- [Source Code]()
+- [Source Code](https://github.com/krrishmittal/FSJS2.0/tree/main/HTML%20and%20CSS%20Assignment/Week%2003/FSJS%202.0%20Project%2003)
 - [Live Link]()

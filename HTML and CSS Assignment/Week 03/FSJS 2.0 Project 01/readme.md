@@ -1,4 +1,42 @@
+# _SEO Master Landing Page Project_
 
-## Project 1
-### Output
-![](https://github.com/anuragtiwarime/fsjs2/raw/main/Week%2003/Project%2001/output.png)
+This is my first project of `Full Stack JavaScript Bootcamp 2.0` course. Here i used some css property for creating this SEO Master Landing Page. I have made this project for mainly for desktop device.
+
+- [Live Link]()
+
+## _Technology Used_ 
+
+![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+## _What is the task?_
+The task is given to us create the same landing page, output img has given to us. Also HTML file has given. We have to write only css for given html file. One Rule is, we can not modify in the html file.
+
+## _My Approach_
+
+For creating this project i have used lots of css property which is i describe below. So you can see my approach, how i have been created this project.
+
+## _For Navbar_
+
+Mainly, i used on nav bar is flex property of CSS. I also used other flexbox property like align-itmes, justify-content. I choose flexbox because it provides the feature to flow your collection of element in one direction or another. With the help of flexbox, I can control the dimension or spacing between elements.
+
+``` css
+.navbar-container {
+    display : flex;
+}
+```
+
+## _For Banner Section_
+
+In banner section, i used flex property again. Because of its flexibility.I also used some text property like `letter-spacing, word-spacing, line-height` etc.
+
+## _For Responsive Layout_
+
+I have used some media queries for Responsive layout. I have tried my best but it is not fully responsive for different devices.
+
+## _Some Basic properties I used_
+I used some other basic properties of css like `margin, padding, border-radius, background-color` etc.
+
+- ## _Output_
+![](https://raw.githubusercontent.com/anuragtiwarime/fsjs2/main/Week%2003/Project%2001/output.png)
+
+
