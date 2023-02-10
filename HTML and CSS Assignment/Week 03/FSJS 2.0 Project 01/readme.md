@@ -2,7 +2,7 @@
 
 This is my first project of `Full Stack JavaScript Bootcamp 2.0` course. Here i used some css property for creating this SEO Master Landing Page. I have made this project for mainly for desktop device.
 
-- [Live Link]()
+- _[Live Link](https://snazzy-buttercream-ae726e.netlify.app/)_
 
 ## _Technology Used_ 
 

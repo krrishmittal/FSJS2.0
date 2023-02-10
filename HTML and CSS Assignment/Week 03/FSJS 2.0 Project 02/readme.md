@@ -2,7 +2,7 @@
 
 This is my third project of `Full Stack JavaScript Bootcamp 2.0` course.
 
-- [Live Link]()
+- _[Live Link](https://soft-raindrop-d4b68c.netlify.app/)_
 
 ## _Technology Used_
 

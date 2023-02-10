@@ -2,7 +2,7 @@
 
 This is my third project of `Full Stack JavaScript Bootcamp 2.0` course. Here i used lots of css property for creating this Fahion Hub Landing Page. I have made this project for mainly for desktop device.
 
-- [Live Link]()
+- _[Live Link](https://voluble-sunburst-fff969.netlify.app/)_
 
 ## _Technology Used_
 
