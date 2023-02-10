@@ -7,8 +7,8 @@
 let age = prompt("Enter Your Age"); // taking input from browser
 
 if(age>=18) {
-    alert('You are old enough to drive'); // displaying message on browser
+    document.write('You are old enough to drive'); // displaying message on browser
 }
 else{
-    alert(`Wait for ${18 - age} year When you become adult`); // displaying message on browser
+    document.write(`Wait for ${18 - age} year When you become adult`); // displaying message on browser
 }

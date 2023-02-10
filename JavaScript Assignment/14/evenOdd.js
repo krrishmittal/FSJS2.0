@@ -14,8 +14,8 @@ let num = prompt("Enter a number");
 */
 
 if(num&1){
-    alert(`${num} is Odd Number`);
+    document.write(`${num} is Odd Number`);
 }
 else{
-    alert(`${num} is Even Numbers`);
+    document.write(`${num} is Even Numbers`);
 }
