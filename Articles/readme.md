@@ -9,3 +9,5 @@
 ## _4. [Audio and Video Tag](https://krrishmittal.hashnode.dev/audio-and-video-tag-in-html)_
 
 ## _5. [HTML tags](https://krrishmittal.hashnode.dev/html-tags)_
+
+## _6.[Flex Box (CSS)](https://krrishmittal.hashnode.dev/flexbox-and-its-properties)_
