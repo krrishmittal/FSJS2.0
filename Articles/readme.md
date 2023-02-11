@@ -11,3 +11,5 @@
 ## _5. [HTML tags](https://krrishmittal.hashnode.dev/html-tags)_
 
 ## _6.[Flex Box (CSS)](https://krrishmittal.hashnode.dev/flexbox-and-its-properties)_
+
+## _7.[Positioning (CSS)](https://krrishmittal.hashnode.dev/position-in-css)_
