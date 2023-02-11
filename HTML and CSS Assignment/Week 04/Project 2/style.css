@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/stethoscope.png);
+  background-repeat: no-repeat;
+  background-size: 38%;
+  background-position-x: 35%;
+  background-position-y: 70%;
+
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+/* nav section */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 200px;
+  padding-top: 40px;
+  /* background-color: rgb(169, 168, 168); */
+}
+.list-items {
+  display: flex;
+  column-gap: 40px;
+  list-style: none;
+}
+.item.item1 {
+  color: #008000;
+  font-weight: 600;
+}
+.item {
+  color: #000;
+  font-weight: 600;
+}
+
+/* main section */
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 85vh;
+  width: 100vw;
+}
+
+/****** left side **********/
+.left-side {
+  width: 50vw;
+  /* background-color: rgb(218, 244, 182); */
+}
+h1 {
+  font-size: 59px;
+  font-weight: 700;
+  width: 70%;
+  line-height: 80px;
+  /* background-color: rgb(240, 220, 220); */
+  margin: 20px 0 40px;
+}
+p {
+  color: rgb(145, 142, 142);
+  width: 70%;
+  margin-bottom: 20px;
+}
+.bottom-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  height: 50px;
+  /* background-color: rgb(169, 243, 198); */
+}
+.mouse-img-container {
+  display: flex;
+  justify-content: space-between;
+
+  height: 100%;
+  width: 100px;
+  /* background-color: rgb(241, 245, 244); */
+}
+.bottom-arrow-img {
+  align-self: flex-start;
+}
+.mouse-img {
+  align-self: flex-end;
+}
+button {
+  background-color: #008000;
+  color: #fff;
+  border: none;
+  padding: 18px 60px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/****** right side **********/
+
+.right-side {
+  position: relative;
+  top: -320px;
+  right: 300px;
+  background-color: #edf995;
+}
+.right-side-img-1 {
+  position: absolute;
+  top: 130px;
+  right: -450px;
+  width: 450px;
+  z-index: -999;
+}
+.right-side-img-2 {
+  position: absolute;
+  top: 180px;
+  right: -470px;
+  width: 400px;
+  z-index: 000;
+}
+.right-side-img-3 {
+  position: absolute;
+  width: 460px;
+  z-index: 999;
+}
