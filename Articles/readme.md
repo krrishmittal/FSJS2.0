@@ -13,3 +13,5 @@
 ## _6.[Flex Box (CSS)](https://krrishmittal.hashnode.dev/flexbox-and-its-properties)_
 
 ## _7.[Positioning (CSS)](https://krrishmittal.hashnode.dev/position-in-css)_
+
+## _8.[CSS Box Model (Padding, Margin, Border)](https://krrishmittal.hashnode.dev/css-box-model-padding-margin-border)_
