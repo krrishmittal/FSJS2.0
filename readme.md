@@ -34,7 +34,7 @@
 - ## _[Project- Vc Code Clone](https://github.com/krrishmittal/FSJS2.0/tree/main/vs%20code%20clone)_
 
 ## _5. Tailwind and CSS Projects_
-- ## _[Project- 01]()_
+- ## _[Project- 01](https://github.com/krrishmittal/FSJS2.0/tree/main/Tailwind%20CSS)_
 
 - ## _[Project- 02]()_
 

@@ -1,6 +1,6 @@
 # _01 Project Credit Card Landing Page_
 - ## _[Live Link](https://amazing-pasca-3e716f.netlify.app/)_
-- ## _[Source Code]()_
+- ## _[Source Code](https://github.com/krrishmittal/FSJS2.0/tree/main/Tailwind%20CSS)_
 # _02 Project Hosting Site Landing Page_
 - ## _[Live Link]()_
 - ## _[Source Code]()_
