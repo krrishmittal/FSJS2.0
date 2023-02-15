@@ -15,3 +15,5 @@
 ## _7.[Positioning (CSS)](https://krrishmittal.hashnode.dev/position-in-css)_
 
 ## _8.[CSS Box Model (Padding, Margin, Border)](https://krrishmittal.hashnode.dev/css-box-model-padding-margin-border)_
+
+## _9.[Media Query](https://krrishmittal.hashnode.dev/media-query)_
