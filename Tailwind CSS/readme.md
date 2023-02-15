@@ -1,5 +1,5 @@
 # _01 Project Credit Card Landing Page_
-- ## _[Live Link]()_
+- ## _[Live Link](https://amazing-pasca-3e716f.netlify.app/)_
 - ## _[Source Code]()_
 # _02 Project Hosting Site Landing Page_
 - ## _[Live Link]()_

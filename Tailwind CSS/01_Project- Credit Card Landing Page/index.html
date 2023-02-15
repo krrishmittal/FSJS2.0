@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creadit Card Landing Page</title>
+
+    <script
+      src="https://kit.fontawesome.com/fb22eebb87.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            ssm: "318px",
+            // => @media (min-width: 320px) { ... }
+            px425: "425px",
+            // => @media (min-width: 425px) { ... }
+            sm: "640px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "768px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "1024px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1280px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1536px",
+            // => @media (min-width: 1536px) { ... }
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="overflow-x-hidden bg-[#151515]">
+    <!----- Nav Section ------->
+    <div class="w-screen">
+      <nav
+        class="pt-4 flex flex-row justify-between items-center ssm:px-10 md:px-28"
+      >
+        <img
+          class="ssm:w-[80px] md:w-[100px]"
+          src="./Assets/Icons/Logo.svg"
+          alt="nav-logo"
+        />
+        <ul
+          class="lg:flex lg:flex-row lg:justify-around lg:items-center gap-8 text-white ssm:hidden"
+        >
+          <li>Home</li>
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>About us</li>
+        </ul>
+        <!-- nav right button section -->
+        <div
+          class="md:flex md:flex-row md:justify-center md:items-center md:gap-6 ssm:hidden"
+        >
+          <span class="text-white">Eng</span>
+          <span class="text-white text-[9px] -ml-2">v</span>
+          <div class="flex flex-row justify-center items-center relative block">
+            <img src="./Assets/Icons/btn-pink-bg.svg" alt="btn-pink-img" />
+            <span class="text-white absolute w-[90px] left-6">Contact Us</span>
+          </div>
+        </div>
+        <!-- for ssm screen, barline -->
+        <i class="fa-solid fa-bars text-white md:hidden"></i>
+      </nav>
+
+      <!----- Header Section ------->
+      <header
+        class="container mx-auto max-w-full flex ssm:flex-col md:flex-row ssm:justify-center md:justify-around items-center my-8 md:my-14 ssm:px-10 md:px-28 relative"
+      >
+        <div
+          class="text-[#fff] flex flex-col justify-center ssm:items-center lg:items-start ssm:text-center lg:text-left w-[100vw]"
+        >
+          <h1
+            class="ssm:text-[35px] md:text-6xl xl:text-7xl ssm:w-[80%] md:mt-5 md:w-[800px] md:px-3"
+          >
+            Simplify All Transactions in
+            <span class="text-[#F637EC] font-medium">One Card</span>
+          </h1>
+          <p
+            class="mt-10 ssm:text-[15px] md:text-[18px] lg:text-[20px] ssm:text-gray-400 ssm:w-[70%] md:w-[450px]"
+          >
+            Hurry up and join now, with this you can manage your daily finances
+            easily and safely
+          </p>
+          <div
+            class="flex flex-row ssm:justify-center ssm:items-center md:relative my-16"
+          >
+            <img
+              class="ssm:w-[40px] md:w-[60px]"
+              src="./Assets/Icons/btn-pink-bg.svg"
+              alt="btn-pink-img"
+            />
+            <span
+              class="text-white ssm:text-[10px] text-[15px] lg:text-[18px] -ml-5"
+              >GET STARTED</span
+            >
+            <img
+              class="ssm:w-[40px] md:w-[70px] ml-1"
+              src="./Assets/Icons/RightArrow.svg"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="flex flex-row ssm:justify-center lg:justify-start ssm:items-center ssm:gap-x-4 px425:gap-x-10 md:gap-x-20 ssm:w-[320px] md:w-[100%]"
+          >
+            <!-- 42K section -->
+            <div
+              class="flex ssm:flex-col lg:flex-row justify-center items-center lg:gap-x-4 md:gap-y-4"
+            >
+              <span class="ssm:text-xl md:text-4xl font-medium"
+                >42K<span class="text-[#F637EC]">+</span></span
+              >
+              <div class="flex flex-col ssm:items-center lg:items-start">
+                <span class="md:text-xl md:mb-2">Happy</span>
+                <span class="md:text-xl">Active User</span>
+              </div>
+            </div>
+
+            <!-- verticle line devider -->
+            <img src="./Assets/Icons/Vector 402.svg" alt="" />
+
+            <div
+              class="flex ssm:flex-col lg:flex-row justify-center items-center lg:gap-x-4 md:gap-y-4"
+            >
+              <span class="ssm:text-xl md:text-4xl font-medium"
+                >12K <span class="text-[#F637EC]">+</span>
+              </span>
+              <div class="flex flex-col ssm:items-center lg:items-start">
+                <span class="md:text-xl md:mb-2">Years</span>
+                <span class="md:text-xl">Experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- header right-img section -->
+        <div class="w-fit ssm:hidden lg:block">
+          <img
+            class="absolute w-[750px] ssm:top-[-50px] -z-20 ssm:right-[20px]"
+            src="./Assets/Photos/backCards.png"
+            alt="backCards"
+          />
+          <img
+            class="absolute w-[750px] top-[10px] right-[-190px] -z-10"
+            src="./Assets/Photos/frontCards.png"
+            alt="frontCards"
+          />
+        </div>
+      </header>
+    </div>
+    <!-- 5 logo container -->
+    <section
+      aria-label="logo-container"
+      class="grid grid-cols-2 grid-rows-2 justify-items-center items-center md:flex md:flex-row md:items-center md:justify-around h-[25vh] md:px-20 mt-28 bg-[#292929]"
+    >
+      <img
+        class="ssm:w-[80px] md:w-[130px]"
+        src="./Assets/Icons/Logo.svg"
+        alt="logo"
+      />
+      <img
+        class="ssm:w-[80px] md:w-[130px]"
+        src="./Assets/Icons/Logo.svg"
+        alt="logo"
+      />
+      <img
+        class="ssm:w-[80px] md:w-[130px]"
+        src="./Assets/Icons/Logo.svg"
+        alt="logo"
+      />
+      <img
+        class="ssm:w-[80px] md:w-[130px]"
+        src="./Assets/Icons/Logo.svg"
+        alt="logo"
+      />
+      <img
+        class="ssm:hidden md:block ssm:w-[80px] md:w-[130px]"
+        src="./Assets/Icons/Logo.svg"
+        alt="logo"
+      />
+    </section>
+    <!-- payment-service-section -->
+    <section
+      aria-label="payment-service-section"
+      class="flex flex-col gap-8 md:px-28 py-16"
+    >
+      <div
+        class="flex ssm:flex-col ssm:justify-center ssm:gap-6 md:gap-20 lg:flex-row lg:justify-between items-center text-white ssm:text-center lg:text-left px425:px-10"
+      >
+        <h2
+          class="ssm:text-[35px] md:text-6xl xl:text-7xl ssm:w-[100%] md:w-[90%] lg:w-[600px] md:leading-[80px]"
+        >
+          The best payment service for
+          <span class="text-[#F637EC] font-medium">your transactions.</span>
+        </h2>
+        <p
+          class="ssm:text-[15px] md:text-[20px] lg:text-[22px] ssm:text-gray-400 ssm:w-[75%] lg:w-[400px]"
+        >
+          The following are the services we provide to users. with the services
+          we maximize it is hoped that users are satisfied with what we provide.
+        </p>
+      </div>
+      <!-- three payment container -->
+      <div
+        class="flex ssm:flex-col md:flex-row justify-center items-center md:flex-wrap ssm:gap-20 md:gap-8 lg:gap-20 ssm:mt-20 md:mt-28"
+      >
+        <!-- box 1 -->
+        <div
+          class="flex flex-col justify-center items-center bg-[#272727] border-2 border-solid border-gray-400 ssm:w-[250px] ssm:h-[250px] md:w-[300px] md:h-[300px]"
+        >
+          <img
+            class="ssm:w-[80px] md:w-[100px]"
+            src="./Assets/Icons/dollar-circle.svg"
+            alt=""
+          />
+          <span class="text-[22px] font-medium text-white mt-5 text-center"
+            >Free transactions fee</span
+          >
+        </div>
+        <!-- box 2 -->
+        <div
+          class="flex flex-col justify-center items-center bg-[#504F4E] border-2 border-solid border-gray-400 ssm:w-[250px] ssm:h-[250px] md:w-[300px] md:h-[300px] xl:mb-28"
+        >
+          <img
+            class="ssm:w-[80px] md:w-[100px]"
+            src="./Assets/Icons/cloud-add.svg"
+            alt=""
+          />
+          <span class="text-[22px] font-medium text-white mt-5 text-center">
+            Easy to access
+          </span>
+          <span class="text-[22px] font-medium text-white text-center"
+            >anytime and anywhere</span
+          >
+        </div>
+        <!-- box 3 -->
+        <div
+          class="flex flex-col justify-center items-center bg-[#272727] border-2 border-solid border-gray-400 ssm:w-[250px] ssm:h-[250px] md:w-[300px] md:h-[300px]"
+        >
+          <img
+            class="ssm:w-[80px] md:w-[100px]"
+            src="./Assets/Icons/lock.svg"
+            alt=""
+          />
+          <span class="text-[22px] font-medium text-white mt-5 text-center"
+            >Guaranteed Safety</span
+          >
+        </div>
+      </div>
+    </section>
+    <!-- card-choices-section -->
+    <section
+      aria-label="card-choices"
+      class="flex flex-col justify-center items-center bg-[#FCEFFB] pt-20 ssm:text-center ssm:px-10 md:px-28"
+    >
+      <h2 class="ssm:text-4xl md:text-6xl font-normal mb-4">
+        Unique and interesting
+      </h2>
+      <h2 class="ssm:text-4xl md:text-6xl font-bold text-[#F637EC] mb-16">
+        card choices
+      </h2>
+      <p
+        class="ssm:w-[300px] md:w-[500px] text-center text-gray-700 ssm:text-[15px] md:text-[18px] lg:text-[20px]"
+      >
+        We provide card editing features, where users can edit unique cards
+        according to the wishes and preferences of the users themselves.
+      </p>
+      <img
+        class="ssm:w-[500px] md:w-[800px]"
+        src="./Assets/Photos/VCards.png"
+        alt=""
+      />
+    </section>
+    <!-- rating-section container -->
+    <section
+      aria-label="rating-section"
+      class="flex flex-col justify-center items-center pt-20 md:px-28 w-screen"
+    >
+      <h2
+        class="ssm:text-4xl md:text-6xl xl:text-7xl text-white text-center font-normal mb-6 ssm:w-[80%] md:w-[800px] md:leading-[90px]"
+      >
+        Customers are satisfied with
+        <span class="text-[#F637EC] font-bold">the features</span>
+        we provide
+      </h2>
+
+      <p
+        class="ssm:w-[70%] md:w-[500px] md:text-[19px] text-center text-gray-400 mb-24"
+      >
+        With the various features that we provide, therefore many customers like
+        the features that we provide.
+      </p>
+
+      <div
+        class="grid ssm:grid-cols-1 ssm:grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 justify-items-center items-center gap-20"
+      >
+        <!-- box 1 -->
+        <div
+          class="flex flex-col justify-center items-start md:gap-4 bg-[#514F4E] border-2 border-solid border-gray-400 ssm:w-[300px] ssm:h-[280px] md:w-[400px] md:h-[250px] px-6"
+        >
+          <img class="w-[130px]" src="./Assets/Icons/5stars.svg" alt="" />
+          <span class="text-white mt-5 text-[16px]"
+            >This best financial platform i've ever found, here we can custom
+            cards according to our wishes. I'm very satisfied!</span
+          >
+          <div class="flex flex-col">
+            <span class="text-white text-[19px]">Alex Georgio</span>
+            <span class="text-white">Wangon, Indonesia</span>
+          </div>
+        </div>
+        <!-- box 2 -->
+        <div
+          class="flex flex-col justify-center items-start gap-4 bg-[#151515] border-2 border-solid border-gray-400 ssm:w-[300px] ssm:h-[280px] md:w-[400px] md:h-[250px] px-6"
+        >
+          <img class="w-[130px]" src="./Assets/Icons/4stars.svg" alt="" />
+          <span class="text-white mt-5 text-[16px]"
+            >This best financial platform i've ever found, here we can custom
+            cards according to our wishes. I'm very satisfied!</span
+          >
+          <div class="flex flex-col">
+            <span class="text-white text-[19px]">Alex Georgio</span>
+            <span class="text-white">Wangon, Indonesia</span>
+          </div>
+        </div>
+        <!-- box 3 -->
+        <div
+          class="flex flex-col justify-center items-start gap-4 bg-[#151515] border-2 border-solid border-gray-400 ssm:w-[300px] ssm:h-[280px] md:w-[400px] md:h-[250px] px-6"
+        >
+          <img class="w-[130px]" src="./Assets/Icons/4stars.svg" alt="" />
+          <span class="text-white mt-5 text-[16px]"
+            >This best financial platform i've ever found, here we can custom
+            cards according to our wishes. I'm very satisfied!</span
+          >
+          <div class="flex flex-col">
+            <span class="text-white text-[19px]">Alex Georgio</span>
+            <span class="text-white">Wangon, Indonesia</span>
+          </div>
+        </div>
+        <!-- box 4 -->
+        <div
+          class="flex flex-col justify-center items-start gap-4 bg-[#151515] border-2 border-solid border-gray-400 ssm:w-[300px] ssm:h-[280px] md:w-[400px] md:h-[250px] px-6"
+        >
+          <img class="w-[130px]" src="./Assets/Icons/5stars.svg" alt="" />
+          <span class="text-white mt-5 text-[16px]"
+            >This best financial platform i've ever found, here we can custom
+            cards according to our wishes. I'm very satisfied!</span
+          >
+          <div class="flex flex-col">
+            <span class="text-white text-[19px]">Alex Georgio</span>
+            <span class="text-white">Wangon, Indonesia</span>
+          </div>
+        </div>
+      </div>
+      <!-- dot section -->
+      <div class="flex flex-row justify-center items center gap-4 my-20">
+        <div class="w-[80px] h-[15px] bg-[#F637EC] rounded-[50px]"></div>
+        <div class="w-[15px] h-[15px] bg-gray-600 rounded-[100%]"></div>
+        <div class="w-[15px] h-[15px] bg-gray-600 rounded-[100%]"></div>
+        <div class="w-[15px] h-[15px] bg-gray-600 rounded-[100%]"></div>
+      </div>
+    </section>
+
+    <section class="my-4 w-screen ssm:h-fit relative">
+      <!-- -------- diamond text & image container ---------- -->
+      <div>
+        <!-------- diamond text container --------->
+        <div
+          class="absolute -translate-y-2/4 -translate-x-2/4 top-[50%] left-[50%] z-20 w-[100%]"
+        >
+          <h2
+            class="text-white ssm:text-[6vw] w-[76%] md:font-medium mx-auto text-center ssm:mb-4 md:mb-10 lg:mb-14 leading-8 px425:leading-10 sm:leading-[50px] md:leading-[60px] lg:leading-[80px] xl:leading-[100px]"
+          >
+            Let's start
+            <span
+              class="text-[#151515] ssm:text-[6vw] ssm:font-medium md:font-bold"
+              >customing</span
+            >
+            your card now
+          </h2>
+          <div class="text-white flex flex-row justify-center items-center">
+            <img
+              class="ssm:w-[35px] md:w-[65px]"
+              src="./Assets/Icons/btn-pink-bg.svg"
+              alt=""
+            />
+            <span class="ssm:text-[10px] md:text-[18px] md:font-medium -ml-6"
+              >GET STARTED</span
+            >
+            <img
+              class="w-[40px] md:w-[70px] ml-1"
+              src="./Assets/Icons/RightArrow.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- ------ image section ------- -->
+        <div class="">
+          <img
+            class="w-[100%] absolute -z-20"
+            src="./Assets/Photos/Rectangle 6773.png"
+            alt=""
+          />
+          <img
+            class="w-[100%] z-20"
+            src="./Assets/Photos/Rectangle 6774.png"
+            alt=""
+          />
+
+          <div
+            class="flex flex-row justify-between items-center w-[100%] h-fit absolute top-[0px]"
+          >
+            <img
+              class="rotate-180 w-[40%]"
+              src="./Assets/Photos/Diamond-left.png"
+              alt=""
+            />
+            <img
+              class="rotate-180 w-[40%]"
+              src="./Assets/Photos/Diamond-right.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="flex flex-row justify-between ssm:items-start md:items-center w-screen py-20 md:py-24 ssm:px-10 md:px-28"
+    >
+      <img
+        class="ssm:w-[80px] md:w-[100px]"
+        src="./Assets/Icons/Logo.svg"
+        alt=""
+      />
+      <div
+        class="ssm:flex ssm:flex-col sm:flex-row ssm:justify-center ssm:items-start gap-2 text-white"
+      >
+        <span class="ssm:text-[12px] md:text-[16px] md:mr-4">Branding</span>
+        <span class="ssm:text-[12px] md:text-[16px] md:mr-4">Contact Us</span>
+        <span class="ssm:text-[12px] md:text-[16px] md:mr-4"
+          >Privacy Policy</span
+        >
+        <span class="ssm:text-[12px] md:text-[16px] md:mr-4">FAQs</span>
+      </div>
+    </footer>
+  </body>
+</html>
