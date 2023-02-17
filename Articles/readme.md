@@ -20,4 +20,6 @@
 
 ## _10.[CSS Grid](https://krrishmittal.hashnode.dev/css-grid)_
 
-## _11.[Array and Array Methods In JavaScript](https://krrishmittal.hashnode.dev/array-and-array-methods-in-javascript)_s
+## _11.[Array and Array Methods In JavaScript](https://krrishmittal.hashnode.dev/array-and-array-methods-in-javascript)_
+
+## _12.[Function in JavaScript](https://krrishmittal.hashnode.dev/function-in-javascript)_
