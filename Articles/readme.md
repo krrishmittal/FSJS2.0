@@ -19,3 +19,5 @@
 ## _9.[Media Query](https://krrishmittal.hashnode.dev/media-query)_
 
 ## _10.[CSS Grid](https://krrishmittal.hashnode.dev/css-grid)_
+
+## _11.[Array and Array Methods In JavaScript](https://krrishmittal.hashnode.dev/array-and-array-methods-in-javascript)_s
