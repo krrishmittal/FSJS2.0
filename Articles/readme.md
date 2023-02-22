@@ -25,3 +25,5 @@
 ## _12.[Function in JavaScript](https://krrishmittal.hashnode.dev/function-in-javascript)_
 
 ## _13.[Objects in JavaScript](https://krrishmittal.hashnode.dev/objects-in-javascript)_
+
+## _14.[Array and Array Methods In JavaScript](https://krrishmittal.hashnode.dev/array-and-array-methods-in-javascript)_
