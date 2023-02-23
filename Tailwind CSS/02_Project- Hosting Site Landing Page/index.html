@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hosting Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            ssm: { max: "1024px" },
+            //768px tak tha pahle
+            // => @media (max-width: 639px) { ... }
+            sm: "640px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "768px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "1024px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1280px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1440px",
+            // => @media (min-width: 1536px) { ... }
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="overflow-x-hidden bg-[#151515]">
+    <!----- Nav Section ------->
+    <header class="bg-[#151515] w-screen">
+      <nav
+        class="pt-4 flex flex-row justify-between items-center ssm:px-6 md:px-20 xl:px-28"
+      >
+        <img
+          class="ssm:w-[100px] md:w-[130px]"
+          src="./assets/Logo.svg"
+          alt="nav-logo"
+        />
+        <ul
+          class="flex flex-row justify-around items-center gap-8 text-white ssm:hidden"
+        >
+          <li>Home</li>
+          <li>Domain</li>
+          <li>Features</li>
+          <li>Support</li>
+          <li>Community</li>
+        </ul>
+
+        <!-- nav button section -->
+        <button
+          class="bg-[#0C8BFD] border-none rounded-[50px] ssm:px-6 ssm:py-1 md:px-9 md:py-2 lg:px-10 lg:py-2 text-white hover:bg-white hover:text-[#0C8BFD]"
+        >
+          Login
+        </button>
+      </nav>
+
+      <!----- Header Section ------->
+      <div
+        class="container mx-auto max-w-full flex ssm:flex-col ssm:justify-center ssm:gap-20 lg:flex-row lg:justify-around items-center lg:h-[80vh] ssm:my-20 ssm:px-6 lg:px-20 xl:px-28 lg:mt-8 relative"
+      >
+        <div
+          class="text-[#fff] flex flex-col justify-center ssm:items-center lg:items-start ssm:w-[90vw] lg:w-[100vw]"
+        >
+          <h1
+            class="ssm:text-4xl ssm:text-center lg:text-left sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl md:w-[80vw] lg:w-[500px] xl:w-[620px]"
+          >
+            The best and
+            <span class="text-[#0c8bfd] font-medium">cheapest</span> hosting for
+            your website
+          </h1>
+          <p
+            class="lg:mt-10 smm:w-[80vw] sm:w-[70vw] md:w-[60vw] lg:w-[400px] ssm:mt-6 text-center lg:text-left md:text-[20px] lg:text-[18px] md:mt-10"
+          >
+            Hosting your website here is easy, access is fast, server security
+            is very well maintained, and of course supported by reliable
+            servers.
+          </p>
+          <p class="hidden">security is very well maintained, and of course</p>
+          <p class="hidden">supported by reliable servers.</p>
+
+          <!-- hedder button section -->
+          <div
+            class="flex flex-row justify-center items-center gap-6 md:gap-8 ssm:mt-10 lg:mt-14"
+          >
+            <button
+              class="bg-[#0C8BFD] border-none rounded-[50px] ssm:px-6 ssm:py-2 ssm:text-[12px] lg:px-10 lg:py-2 text-white hover:bg-white hover:text-[#0C8BFD]"
+            >
+              Login
+            </button>
+
+            <button
+              class="bg-[#0C8BFD] border-none rounded-[50px] ssm:px-6 ssm:py-2 md:px-8 md:py-2 lg:px-10 lg:py-2 text-white ssm:text-[12px] md:text-[14px] hover:bg-white hover:text-[#0C8BFD]"
+            >
+              Try Start Free
+            </button>
+          </div>
+        </div>
+
+        <!-- header right section -->
+        <div class="w-fit">
+          <img
+            class="ssm:w-[60vw] sm:w-[50vw] md:w-[45vw] lg:w-[50vw] xl:w-[750px]"
+            src="./assets/Illustrations/Group 238502.svg"
+            alt="backCards"
+          />
+        </div>
+      </div>
+    </header>
+    <!-- Logo container section -->
+    <section
+      aria-label="logo-container"
+      class="ssm:grid ssm:grid-cols-2 ssm:grid-rows-2 ssm:justify-items-center ssm:gap-x-3 ssm:gap-y-9 md:gap-y-28 lg:flex lg:flex-row items-center lg:justify-around Lg:h-[25vh] lg:px-28 lg:py-10 ssm:py-10 bg-[#292929]"
+    >
+      <img
+        class="ssm:w-[100px] md:w-[120px] lg:w-[130px]"
+        src="./assets/Logo.svg"
+        alt="logo"
+      />
+      <img
+        class="ssm:w-[100px] md:w-[120px] lg:w-[130px]"
+        src="./assets/Logo.svg"
+        alt="logo"
+      />
+      <img
+        class="ssm:w-[100px] md:w-[120px] lg:w-[130px]"
+        src="./assets/Logo.svg"
+        alt="logo"
+      />
+      <img
+        class="ssm:w-[100px] md:w-[120px] lg:w-[130px]"
+        src="./assets/Logo.svg"
+        alt="logo"
+      />
+    </section>
+
+    <!-- best service section -->
+    <section
+      aria-label="payment-service-section"
+      class="flex flex-col gap-8 ssm:px-6 lg:px-20 xl:px-28 py-16 bg-white"
+    >
+      <div class="flex flex-col justify-center items-center ssm:text-center">
+        <h2
+          class="ssm:text-[40px] lg:text-[45px] xl:text-[60px] ssm:leading-[50px] lg:leading-[80px] sm:w-[70vw] font-medium text-center"
+        >
+          The best service especially for you
+        </h2>
+        <p
+          class="ssm:text-[17px] lg:text-xl text-gray-400 ssm:w-[70vw] md:w-[50vw] lg:w-[430px] text-center mt-8"
+        >
+          we will serve you as best we can with the aim of providing
+          satisfaction to you.
+        </p>
+      </div>
+
+      <!-- three card box -->
+
+      <div
+        class="flex ssm:flex-col md:flex-row md:flex-wrap lg:flex-nowrap lg:flex-row justify-center items-center gap-20 lg:gap-4 mt-28"
+      >
+        <div
+          class="flex flex-col justify-center items-center border-2 border-solid border-gray-400 w-[300px] h-[300px] rounded-[30px]"
+        >
+          <img class="w-[100px]" src="./assets/Icons/fast.svg" alt="" />
+          <span class="text-[22px] font-medium mt-5 text-center"
+            >Faster hosting process</span
+          >
+
+          <p class="text-center mt-5 w-[250px]">
+            We can speed up the certain of your website, which is made directly
+            by the experts.
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col justify-center items-center bg-[#111010] border-2 border-solid border-gray-400 w-[300px] h-[300px] lg:mb-28 rounded-[30px]"
+        >
+          <img class="w-[100px]" src="./assets/Icons/signal.svg" alt="" />
+          <span class="text-[22px] font-medium text-white mt-5 text-center">
+            Speed to access faster
+          </span>
+
+          <p class="text-white text-center mt-5 w-[210px]">
+            Excellen network infrastructure and hardware to support fast and
+            stable access.
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col justify-center items-center border-2 border-solid border-gray-400 w-[300px] h-[300px] rounded-[30px]"
+        >
+          <img class="w-[100px]" src="./assets/Icons/heart.svg" alt="" />
+          <span class="text-[22px] font-medium mt-5 text-center"
+            >Faster Service 24/7</span
+          >
+
+          <p class="text-center mt-5 w-[250px]">
+            We have a response time of less than 150 seconds, available 24 hours
+            a day.
+          </p>
+        </div>
+      </div>
+
+      <!-- support your business -->
+      <div
+        class="flex flex-col ssm:justify-center ssm:items-center gap-14 w-[100%] xl:w-screen mt-24 ssm:px-0"
+      >
+        <!-- heading -->
+        <h2
+          class="ssm:text-4xl lg:text-[45px] xl:text-6xl ssm:text-center font-medium ssm:w-[85vw] md:w-[70vw] lg:w-[70vw] xl:leading-[80px] lg:leading-[60px]"
+        >
+          We are ready to support your business needs to be more advanced
+        </h2>
+
+        <!--  -->
+        <div
+          class="flex ssm:flex-col ssm:justify-center lg:flex-row lg:justify-around xl:justify-start items-center ssm:gap-20 xl:gap-[30%] lg:w-[100%]"
+        >
+          <!-- left box -->
+          <div class="lg:w-[40%] flex flex-col gap-8">
+            <div
+              class="flex flex-row justify-between items-center bg-[#0C8BFD] ssm:px-6 ssm:py-4 lg:px-6 lg:py-8 rounded-[50px] text-white hover:cursor-pointer"
+            >
+              <span class="">Our main features</span>
+              <img
+                class="w-[25px] stroke-black-800"
+                src="./assets/Icons/Group-238511.svg"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="flex flex-row justify-between items-center border-2 ssm:px-6 ssm:py-4 lg:px-6 lg:py-8 rounded-[50px] hover:text-white hover:bg-[#0C8BFD] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+            >
+              <span class="">Speed optimization</span>
+              <img
+                class="w-[25px]"
+                src="./assets/Icons/Group 238512.svg"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="flex flex-row justify-between gap-8 items-center rounded-[50px] ssm:px-6 ssm:py-4 lg:px-6 lg:py-8 border-2 hover:text-white hover:bg-[#0C8BFD] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+            >
+              <span class="">Downtime and security optimization</span>
+              <img
+                class="w-[25px]"
+                src="./assets/Icons/Group 238512.svg"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="flex flex-row justify-between items-center ssm:px-6 ssm:py-4 lg:px-6 lg:py-8 rounded-[50px] border-2 hover:text-white hover:bg-[#0C8BFD] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+            >
+              <span class="">Additional features</span>
+              <img
+                class="w-[25px]"
+                src="./assets/Icons/Group 238512.svg"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="flex flex-row justify-between items-center rounded-[50px] border-2 ssm:px-6 ssm:py-4 lg:px-6 lg:py-8 hover:text-white hover:bg-[#0C8BFD] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+            >
+              <span class="">Best technical support service</span>
+              <img
+                class="w-[25px]"
+                src="./assets/Icons/Group 238512.svg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- right box -->
+          <div
+            class="xl:w-[30%] bg-black flex flex-col gap-3 py-10 px-6 rounded-[40px] xl:-ml-[250px]"
+          >
+            <!-- box-1 -->
+            <div
+              class="flex flex-row justify-start items-center rounded-[50px] px-6 py-4 bg-[#292828] hover:text-white hover:bg-[#0C8BFD] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+            >
+              <div
+                class="w-[15px] h-[15px] rounded-full bg-gray-300 mr-5"
+              ></div>
+
+              <span class="text-white">Number of Websites</span>
+            </div>
+
+            <!-- box-2 -->
+            <div
+              class="flex flex-row justify-start items-center rounded-[50px] px-6 py-4 bg-[#292828] hover:text-white hover:bg-[#0C8BFD] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+            >
+              <div
+                class="w-[15px] h-[15px] rounded-full bg-gray-300 mr-5"
+              ></div>
+
+              <span class="text-white">Number of Email Accounts</span>
+            </div>
+
+            <!-- box-3 -->
+            <div
+              class="flex flex-row justify-start items-center rounded-[50px] px-6 py-4 bg-[#292828] hover:text-white hover:bg-[#0C8BFD] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+            >
+              <div
+                class="w-[15px] h-[15px] rounded-full bg-gray-300 mr-5"
+              ></div>
+
+              <span class="text-white">Unlimited MySQL Database</span>
+            </div>
+
+            <!-- box-4 -->
+            <div
+              class="flex flex-row justify-start items-center rounded-[50px] px-6 py-4 bg-[#292828] hover:text-white hover:bg-[#0C8BFD] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+            >
+              <div
+                class="w-[15px] h-[15px] rounded-full bg-gray-300 mr-5"
+              ></div>
+
+              <span class="text-white">Unlimited Bandwith</span>
+            </div>
+
+            <!-- box-5 -->
+            <div
+              class="flex flex-row justify-start items-center rounded-[50px] px-6 py-4 bg-[#292828] hover:text-white hover:bg-[#0C8BFD] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+            >
+              <div
+                class="w-[15px] h-[15px] rounded-full bg-gray-300 mr-5"
+              ></div>
+
+              <span class="text-white">Unlimited Sub & Parked Domains</span>
+            </div>
+
+            <!-- box-6 -->
+            <div
+              class="flex flex-row justify-start items-center rounded-[50px] px-6 py-4 bg-[#292828] hover:text-white hover:bg-[#0C8BFD] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+            >
+              <div
+                class="w-[15px] h-[15px] rounded-full bg-gray-300 mr-5"
+              ></div>
+
+              <span class="text-white">30 Days Unconditional Guarantee</span>
+            </div>
+
+            <!-- box-7 -->
+            <div
+              class="flex flex-row justify-start items-center rounded-[50px] px-6 py-4 bg-[#292828] hover:text-white hover:bg-[#0C8BFD] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+            >
+              <div
+                class="w-[15px] h-[15px] rounded-full bg-gray-300 mr-5"
+              ></div>
+
+              <span class="text-white">Free Domain</span>
+            </div>
+
+            <!-- box-8 -->
+            <div
+              class="flex flex-row justify-start items-center rounded-[50px] px-6 py-4 bg-[#292828] hover:text-white hover:bg-[#0C8BFD] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+            >
+              <div
+                class="w-[15px] h-[15px] rounded-full bg-gray-300 mr-5"
+              ></div>
+
+              <span class="text-white">Disk Space</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hosting section -->
+
+    <section aria-label="hosting container" class="ssm:px-6 lg:px-28">
+      <div class="flex flex-row justify-center items-center">
+        <img
+          class="mt-[105px] ssm:w-[40px] lg:w-[45px]"
+          src="./assets/Icons/arrow-left.svg"
+          alt=""
+        />
+        <h2
+          class="text-white ssm:text-4xl lg:text-5xl md:w-[60vw] w-[700px] text-center font-medium"
+        >
+          Hosting your website with the services we provide
+        </h2>
+        <img
+          class="mt-[105px] ssm:w-[40px] lg:w-[45px]"
+          src="./assets/Icons/arrow-right.svg"
+          alt=""
+        />
+      </div>
+
+      <!-- bottom three container -->
+      <div
+        class="flex ssm:flex-col lg:flex-row lg:flex-wrap justify-center items-center gap-8 py-16"
+      >
+        <div
+          aria-label="regular box"
+          class="px-8 py-8 bg-white rounded-[30px] hover:text-white hover:bg-[#686666] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+        >
+          <div class="flex flex-col justify-center items-start gap-3">
+            <strong class="text-[25px]">Regular</strong>
+            <strong class="text-[35px]"
+              >$8,9
+              <span class="text-[25px] text-gray-500">/month</span>
+            </strong>
+            <span class="lg:w-[290px] font-medium"
+              >Suitable for you who will build a website and others.</span
+            >
+          </div>
+          <!-- line -->
+          <div class="w-[95%] h-[2px] bg-gray-500 mt-4"></div>
+
+          <!-- plan section -->
+          <ul class="flex flex-col items-start justify-center gap-6 mt-8">
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/blue-tick.svg" alt="" />Up to 16,000
+              Visitors/Month
+            </li>
+            <li
+              class="flex flex-row justify-center items-center gap-3 font-medium"
+            >
+              <img src="./assets/Icons/blue-tick.svg" alt="" />500MB SSD Disk
+              Space
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/blue-tick.svg" alt="" /> Unlimited
+              Bandwidth
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/blue-tick.svg" alt="" /> Unlimited
+              Database
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/blue-tick.svg" alt="" />Instant Backup
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/blue-tick.svg" alt="" />1 Email Account
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/blue-tick.svg" alt="" />1 Domain
+            </li>
+          </ul>
+
+          <button
+            class="bg-[#0C8BFD] w-[96%] text-white rounded-[30px] py-3 mt-7 hover:bg-white hover:text-[#0C8BFD] transition duration-150 ease-out hover:ease-in"
+          >
+            Select
+          </button>
+        </div>
+
+        <!-- second container -->
+        <div
+          aria-label="standard box"
+          class="px-8 py-8 rounded-[30px] bg-[#0C8BFD] text-white hover:cursor-pointer"
+        >
+          <div class="flex flex-col justify-center items-start gap-3">
+            <strong class="text-[25px]">Standard</strong>
+            <strong class="text-[35px]"
+              >$12,98 <span class="text-[25px] text-blue-600">/month</span>
+            </strong>
+            <span class="lg:w-[290px] font-medium"
+              >Suitable for you who will build a website and others.</span
+            >
+          </div>
+          <!-- line -->
+          <div class="w-[95%] h-[2px] bg-blue-600 mt-4"></div>
+
+          <!-- plan section -->
+          <ul class="flex flex-col items-start justify-center gap-6 mt-8">
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/white-tick.svg" alt="" />Up to 16,000
+              Visitors/Month
+            </li>
+            <li
+              class="flex flex-row justify-center items-center gap-3 font-medium"
+            >
+              <img src="./assets/Icons/white-tick.svg" alt="" />500MB SSD Disk
+              Space
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/white-tick.svg" alt="" /> Unlimited
+              Bandwidth
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/white-tick.svg" alt="" /> Unlimited
+              Database
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/white-tick.svg" alt="" />Instant Backup
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/white-tick.svg" alt="" />1 Email Account
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/white-tick.svg" alt="" />1 Domain
+            </li>
+          </ul>
+
+          <button
+            class="bg-white w-[96%] text-[#0c8bfd] rounded-[30px] py-3 mt-7 hover:bg-[#686666] hover:text-[#fff] transition duration-150 ease-out hover:ease-in"
+          >
+            Select
+          </button>
+        </div>
+
+        <!-- third container -->
+        <div
+          aria-label="premium box"
+          class="px-8 py-8 bg-white rounded-[30px] hover:text-white hover:bg-[#686666] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+        >
+          <div class="flex flex-col justify-center items-start gap-3">
+            <strong class="text-[25px]">Premium</strong>
+            <strong class="text-[35px]"
+              >$19,99 <span class="text-[25px] text-gray-500">/month</span>
+            </strong>
+            <span class="lg:w-[290px] font-medium"
+              >Suitable for you who will build a website and others.</span
+            >
+          </div>
+          <!-- line -->
+          <div class="w-[95%] h-[2px] bg-gray-500 mt-4"></div>
+
+          <!-- plan section -->
+          <ul class="flex flex-col items-start justify-center gap-6 mt-8">
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/blue-tick.svg" alt="" />Up to 16,000
+              Visitors/Month
+            </li>
+            <li
+              class="flex flex-row justify-center items-center gap-3 font-medium"
+            >
+              <img src="./assets/Icons/blue-tick.svg" alt="" />500MB SSD Disk
+              Space
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/blue-tick.svg" alt="" /> Unlimited
+              Bandwidth
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/blue-tick.svg" alt="" /> Unlimited
+              Database
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/blue-tick.svg" alt="" />Instant Backup
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/blue-tick.svg" alt="" />1 Email Account
+            </li>
+            <li class="flex flex-row justify-center items-center gap-3">
+              <img src="./assets/Icons/blue-tick.svg" alt="" />1 Domain
+            </li>
+          </ul>
+
+          <button
+            class="bg-[#0C8BFD] w-[96%] text-white rounded-[30px] py-3 mt-7 hover:bg-white hover:text-[#0C8BFD] transition duration-150 ease-out hover:ease-in"
+          >
+            Select
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section
+      aria-label="rating-section"
+      class="flex flex-col justify-center ssm:items-center lg:items-start py-20 ssm:px-6 lg:px-20 xl:px-28 bg-white gap-20 w-screen"
+    >
+      <div
+        class="flex ssm:flex-col lg:flex-row ssm:justify-center lg:justify-between items-center xl:gap-[230px] w-[100%]"
+      >
+        <h2
+          class="ssm:text-4xl lg:text-5xl xl:text-6xl text-black ssm:text-center lg:text-left font-medium mb-6 lg:w-[500px] leading-[80px]"
+        >
+          What do our customers say?
+        </h2>
+
+        <p
+          class="sm:w-[75vw] md:w-[65vw] lg:w-[500px] text-[19px] ssm:text-center lg:text-left text-gray-400"
+        >
+          You will definitely be surprised hoe our customers comment on what we
+          do so well. Because we really prioritize the satisfaction of our
+          customers.
+        </p>
+      </div>
+
+      <div
+        class="grid ssm:grid-cols-1 ssm:grid-rows-2 ssm:justify-items-center ssm:items-center md:grid-cols-2 md:grid-rows-1 gap-20 md:gap-8 w-[100%]"
+      >
+        <div
+          class="flex flex-col justify-center items-start gap-4 bg-[#111010] px-6 py-7 rounded-[20px] hover:text-white hover:bg-[#686666] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+        >
+          <div class="flex flex-row">
+            <img
+              src="./assets/Icons/vuesax/bulk/vuesax/bulk/Vector.svg"
+              alt=""
+            />
+            <img
+              src="./assets/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg"
+              alt=""
+            />
+          </div>
+          <div class="flex flex-col">
+            <span class="text-white text-[19px]">Alex Georgio</span>
+            <span class="text-white">Wangon, Indonesia</span>
+          </div>
+          <span class="text-white mt-5 text-[22px]"
+            >Web hostimg that I highely recommend because the service provided
+            is very good, hosting is fast so with a pretty fantastic
+            speed.</span
+          >
+
+          <img class="w-[130px]" src="./assets/Icons/5stars.svg" alt="" />
+        </div>
+
+        <!-- review 2 -->
+        <div
+          class="flex flex-col justify-center items-start gap-4 bg-white px-6 py-7 rounded-[20px] border-2 border-gray-300 hover:text-white hover:bg-[#000] transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
+        >
+          <div class="flex flex-row">
+            <img
+              src="./assets/Icons/vuesax/bulk/vuesax/bulk/Vector.svg"
+              alt=""
+            />
+            <img
+              src="./assets/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg"
+              alt=""
+            />
+          </div>
+          <div class="flex flex-col">
+            <span class="text-[19px]">Alex Georgio</span>
+            <span class="">Wangon, Indonesia</span>
+          </div>
+          <span class="mt-5 text-[22px]"
+            >Web hostimg that I highely recommend because the service provided
+            is very good, hosting is fast so with a pretty fantastic
+            speed.</span
+          >
+
+          <img class="w-[130px]" src="./assets/Icons/5stars.svg" alt="" />
+        </div>
+      </div>
+      <!-- line -->
+      <div class="flex flex-row w-[100%]">
+        <div class="w-[23vw] h-[8px] bg-blue-600 rounded-full"></div>
+        <div class="w-[73vw] h-[8px] bg-gray-200 rounded-full"></div>
+      </div>
+    </section>
+
+    <!-- signup section -->
+
+    <section
+      aria-label="signup container"
+      class="flex flex-col justify-center items-center gap-20 py-20 lg:px-20 ssm:px-6 w-screen"
+    >
+      <h3
+        class="text-center ssm:text-3xl md:text-4xl lg:text-5xl font-medium text-white sm:w-[75vw] xl:w-[850px] lg:leading-[70px]"
+      >
+        Sign Up now for as much hosting and domain as you want for $20.99/year
+      </h3>
+
+      <div
+        class="bg-[#292828] py-14 ssm:px-6 lg:px-10 xl:px-20 flex ssm:flex-col lg:flex-row justify-center items-center gap-6 lg:gap-3 rounded-[30px]"
+      >
+        <input
+          class="bg-gray-500 px-6 lg:px-4 py-3 rounded-[50px] focus:outline-[#48A7FD] text-white"
+          type="text"
+          placeholder="Name"
+        />
+        <input
+          class="bg-gray-500 px-6 lg:px-4 py-3 rounded-[50px] focus:outline-[#48A7FD] text-white"
+          type="email"
+          placeholder="E-mail Address"
+        />
+        <input
+          class="bg-gray-500 px-6 lg:px-4 py-3 rounded-[50px] focus:outline-[#48A7FD]"
+          type="password"
+          placeholder="Password"
+        />
+        <button
+          class="text-white bg-[#48A7FD] ssm:px-20 lg:px-8 py-3 rounded-[50px] text-[12px] hover:bg-gray-500 border border-[#48A7FD]"
+        >
+          Sign Up
+        </button>
+      </div>
+    </section>
+
+    <footer
+      class="flex flex-col justify-center items-center gap-14 w-screen pb-8 ssm:px-6 lg:px-20 xl:px-28 mt-[2px] align-middle"
+    >
+      <div class="w-[70vw] lg:w-[100%] h-[2px] bg-gray-500"></div>
+
+      <div
+        class="ssm:grid ssm:grid-cols-2 ssm:grid-rows-2 ssm:justify-items-center ssm:items-start ssm:gap-8 lg:flex lg:flex-row lg:justify-around lg:items-baseline ssm:flex-wrap ssm:w-[90vw] lg:w-[100%]"
+      >
+        <ul class="flex flex-col justify-center items-start gap-3 text-white">
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">
+            <strong>Company</strong>
+          </li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">About Us</li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">Contact Us</li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">Carier</li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">Blog</li>
+        </ul>
+        <ul class="flex flex-col justify-center items-start gap-3 text-white">
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">
+            <strong>Features</strong>
+          </li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">Domain</li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">Hosting</li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">Wordpress</li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">
+            Web Security
+          </li>
+        </ul>
+        <ul class="flex flex-col justify-center items-start gap-3 text-white">
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">
+            <strong>Help</strong>
+          </li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">
+            Payment Method
+          </li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">
+            Knoew Ledgebase
+          </li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">Tutorials</li>
+        </ul>
+        <ul class="flex flex-col justify-center items-start gap-3 text-white">
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">
+            <strong>Social Media</strong>
+          </li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">Instagram</li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">Twitter</li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">Facebook</li>
+          <li class="hover:text-[#48A7FD] hover:cursor-pointer">Youtube</li>
+        </ul>
+      </div>
+
+      <div class="w-[70vw] lg:w-[100%] h-[2px] bg-gray-500"></div>
+
+      <div class="flex flex-row justify-start items-start w-[70vw] pb-20">
+        <img class="w-[100px] lg:w-[130px]" src="./assets/Logo.svg" alt="" />
+      </div>
+    </footer>
+  </body>
+</html>
