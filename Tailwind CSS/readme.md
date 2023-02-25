@@ -11,8 +11,8 @@
 - ## _[Live Link](https://genuine-treacle-7a7666.netlify.app/)_
 - ## _[Source Code](https://github.com/krrishmittal/FSJS2.0/tree/main/Tailwind%20CSS/04_Project-%20Real%20Estate%20Landing%20Page)_
 # _05 Project Beats Landing Page_
-- ## _[Live Link]()_
-- ## _[Source Code]()_
+- ## _[Live Link](https://majestic-dango-d65f98.netlify.app/)_
+- ## _[Source Code](https://github.com/krrishmittal/FSJS2.0/tree/main/Tailwind%20CSS/05_Project-%20Beats%20Landing%20Page)_
 # _06 Project Data Analytics Landing Page_
 - ## _[Live Link]()_
 - ## _[Source Code]()_

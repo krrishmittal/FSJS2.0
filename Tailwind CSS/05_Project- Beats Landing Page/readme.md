@@ -1,6 +1,6 @@
 # _Beats Landing Page_
 
-## _[Live Link]()_
+## _[Live Link](https://majestic-dango-d65f98.netlify.app/)_
 
 ## _Technoly Used_
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
